@@ -115,3 +115,17 @@ int main() {
 
     return 0;
 }
+/*
+ Output:
+     Enter the number of rows and columns of the maze: 6 6
+Enter the maze (0 for open space, 1 for wall):
+0 1 0 0 0 0
+0 1 0 1 1 0
+0 0 0 1 0 0
+0 1 1 0 0 0
+0 0 0 0 1 0
+0 1 0 0 0 0
+Enter the starting point (x y): 0 0
+Enter the ending point (x y): 5 5
+Shortest Path: (0, 0) -> (1, 0) -> (2, 0) -> (3, 0) -> (4, 0) -> (4, 1) -> (4, 2) -> (5, 2) -> (5, 3) -> (5, 4) -> (5, 5)
+*/
